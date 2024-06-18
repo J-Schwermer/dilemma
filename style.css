@@ -1,0 +1,74 @@
+/*Basics*/
+
+:root {
+  --background: #f5f5f5;
+  --text: #333;
+  --highlight: #c1c0c0;
+}
+
+html {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--text);
+}
+span {
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+h2 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+h4 {
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+}
+
+/*Header*/
+header {
+  margin-bottom: 50px;
+}
+header img {
+  width: 100%;
+}
+
+.textblock {
+  margin: 50px 0 100px 0;
+}
+
+/*Main*/
+.block {
+  margin: 100px 0;
+}
+main {
+  margin: 0 50px;
+}
+
+/*Schluss*/
+
+.schluss {
+  margin-top: 100px;
+}
+
+.umdenken {
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 50px;
+  background-color: var(--highlight);
+}
