@@ -1,14 +1,15 @@
 /*Basics*/
 
 :root {
-  --background: #f5f5f5;
+  --background: #f4f4f4;
   --text: #333;
-  --highlight: #c1c0c0;
+  --highlight: #c6e0ff;
 }
 
 html {
-  max-width: 1920px;
+  max-width: 1300px;
   margin: 0 auto;
+  background-color: var(--background);
 }
 
 body {
@@ -17,27 +18,42 @@ body {
   line-height: 24px;
   color: var(--text);
 }
-span {
-  font-weight: bold;
-}
 
 h1 {
+  font-family: "playfair display";
   margin-bottom: 10px;
+  font-weight: bold;
   text-align: center;
 }
 h2 {
+  font-family: "playfair display";
   margin-top: 10px;
   text-align: center;
+  font-style: italic;
 }
 
+h4,
 h3 {
-  text-align: center;
+  font-family: "playfair display";
+  font-weight: 700;
 }
-h4 {
-  font-weight: bold;
+
+h5 {
+  font-family: "playfair display";
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+main img {
+  border-radius: 7px;
 }
 .center {
   text-align: center;
+}
+li {
+  padding-top: 3px;
 }
 
 /*Header*/
@@ -51,6 +67,9 @@ header img {
 .textblock {
   margin: 50px 0 100px 0;
 }
+.einleitung {
+  padding: 0 100px;
+}
 
 /*Main*/
 .block {
@@ -60,15 +79,87 @@ main {
   margin: 0 50px;
 }
 
-/*Schluss*/
-
-.schluss {
-  margin-top: 100px;
+.uk-grid {
+  align-items: center;
 }
 
+@media only screen and (max-width: 1200px) {
+  .uk-grid {
+    align-items: start;
+  }
+}
+/*Schluss*/
 .umdenken {
+  margin: 100px;
   text-align: center;
   margin-bottom: 100px;
   padding: 50px;
+  border-radius: 7px;
   background-color: var(--highlight);
+  box-shadow: 3px 1px 8px -2px rgba(51, 51, 51, 0.52);
+}
+
+.fazit {
+  margin: 0 50px;
+}
+
+.linie {
+  margin-top: 50px;
+  border: 2px solid #333;
+}
+.schluss {
+  margin-bottom: 100px;
+}
+
+.denkanstoesse {
+  margin: 50px 50px 0 50px;
+}
+.fazit li {
+  width: 80%;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 630px) {
+  .einleitung {
+    padding: 0 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .umdenken {
+    margin: 100px 10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .fazit,
+  .denkanstoesse {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/*Fonts*/
+
+/* playfair-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/playfair-display-v37-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/playfair-display-v37-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* playfair-display-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/playfair-display-v37-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }

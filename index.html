@@ -8,122 +8,161 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Header -->
     <header>
       <div class="uk-cover-container">
-        <img src="/images/1400x600.svg" alt="..." />
+        <img src="/images/Koll 3_k.png" alt="..." />
       </div>
     </header>
 
+    <!-- Einleitung -->
     <main>
       <div class="textblock">
         <h1>Auto und Umweltschutz:</h1>
         <h2>Fluch oder Segen?</h2>
 
-        <p class="center">
+        <p class="einleitung center">
           In der heutigen Gesellschaft ist das Auto ein unverzichtbarer
           Bestandteil unseres Alltags. Es bietet uns Freiheit, Flexibilität und
           Unabhängigkeit. Doch die Kehrseite der Medaille ist der immense
-          Einfluss, den der motorisierte Individualverkehr auf unsere Umwelt
-          hat.
+          Einfluss, den der motorisierte Individualverkehr auf unsere Umwelt und
+          unseren Lebenstil hat.
         </p>
       </div>
-      <div class="uk-child-width-expand@m block" uk-grid>
-        <div class="textbereich">
-          <h3>Die Schattenseite des Autos:</h3>
-          <ul class="liste">
-            <li>
-              <span>Emissionen:</span> Autos sind Hauptverursacher von
-              Treibhausgasen wie Kohlendioxid, die den Klimawandel anheizen.
-            </li>
-            <li>
-              <span>Luftverschmutzung:</span> Abgase tragen zu Feinstaub und
-              Schadstoffen in der Luft bei, die Atemwegserkrankungen und andere
-              Gesundheitsprobleme verursachen.
-            </li>
-            <li>
-              <span>Ressourcenverbrauch:</span> Die Herstellung und der Betrieb
-              von Autos verschlingen immense Mengen an Rohstoffen wie Erdöl,
-              Metallen und Gummi.
-            </li>
-            <li>
-              <span>Lärm:</span> Der Straßenverkehr ist eine der größten
-              Lärmquellen, die die Lebensqualität in Städten beeinträchtigt.
-            </li>
-            <li>
-              <span>Landverbrauch:</span> Der Bau von Straßen und Parkplätzen
-              verbraucht wertvolle Flächen, die für andere Zwecke wie
-              Landwirtschaft oder Naturräume fehlen.
-            </li>
-          </ul>
+
+      <!-- Benziner -->
+      <div
+        class="uk-grid-column-small uk-grid-row-large uk-child-width-1-2@s"
+        uk-grid
+      >
+        <div>
+          <div class="textbereich">
+            <h3>Die Schattenseite des Autos:</h3>
+            <ul class="liste">
+              <li>
+                <b>Emissionen:</b> Autos sind Hauptverursacher von
+                Treibhausgasen wie Kohlendioxid, die den Klimawandel anheizen.
+              </li>
+              <li>
+                <b>Luftverschmutzung:</b> Abgase tragen zu Feinstaub und
+                Schadstoffen in der Luft bei, die Atemwegserkrankungen und
+                andere Gesundheitsprobleme verursachen.
+              </li>
+              <li>
+                <b>Ressourcenverbrauch:</b> Die Herstellung und der Betrieb von
+                Autos verschlingen immense Mengen an Rohstoffen wie Erdöl,
+                Metallen und Gummi.
+              </li>
+              <li>
+                <b>Lärm:</b> Der Straßenverkehr ist eine der größten
+                Lärmquellen, die die Lebensqualität in Städten beeinträchtigt.
+              </li>
+              <li>
+                <b>Landverbrauch:</b> Der Bau von Straßen und Parkplätzen
+                verbraucht wertvolle Flächen, die für andere Zwecke wie
+                Landwirtschaft oder Naturräume fehlen.
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <img src="/images/400x300.svg" alt="" />
-      </div>
-
-      <div class="uk-child-width-expand@m block" uk-grid>
-        <img src="/images/400x300.svg" alt="" />
-        <div class="textbereich">
-          <h3>E-Autos: Scheinlösung oder Hoffnungsträger?</h3>
-          <p>
-            Elektroautos werden oft als umweltfreundliche Alternative zu
-            Verbrennern angepriesen. Da sie keine direkten Emissionen ausstoßen,
-            tragen sie nicht zur lokalen Luftverschmutzung bei. <br />
-            <span>Aber:</span>
-          </p>
-          <ul class="liste">
-            <li>
-              <span>Die Herstellung von E-Autos ist energieintensiv</span> und
-              kann Umweltbelastungen verursachen, insbesondere wenn der Strom
-              aus fossilen Brennstoffen gewonnen wird.
-            </li>
-            <li>
-              <span>Die Entsorgung von Batterien</span> stellt ein großes
-              Problem dar, da giftige Stoffe den Boden und das Wasser
-              verunreinigen können.
-            </li>
-            <li>
-              <span>Die Reichweite von E-Autos ist begrenzt,</span> was die
-              Alltagstauglichkeit einschränkt.
-            </li>
-            <li>
-              <span>Der Preis von E-Autos ist noch deutlich höher</span> als der
-              von vergleichbaren Benzinern oder Dieselfahrzeugen.
-            </li>
-          </ul>
+        <div>
+          <img
+            class="bilder"
+            src="/images/Auto+Kinder.png"
+            alt="Autoverkehr mit Kindern"
+          />
         </div>
       </div>
-
-      <div class="uk-child-width-expand@m block" uk-grid>
-        <div class="textbereich">
-          <h3>Wasserstoff: Zukunftstechnologie oder Trugbild?</h3>
-          <p>
-            Wasserstoff gilt als potenzieller Energieträger der Zukunft, der
-            auch im Verkehrssektor eingesetzt werden könnte <br />
-            <span>Doch:</span>
-          </p>
-          <ul class="liste">
-            <li>
-              <span>Die Herstellung von Wasserstoff</span> ist energieintensiv
-              und erfordert oft fossile Brennstoffe.
-            </li>
-
-            <li>
-              <span
-                >Die Infrastruktur für Wasserstoffautos ist noch in den
-                Anfängen</span
-              >
-              und muss flächendeckend ausgebaut werden.
-            </li>
-            <li>
-              <span>Wasserstoffautos sind sehr teuer</span> in Anschaffung und
-              Unterhalt.
-            </li>
-          </ul>
+      <!-- E-Auto -->
+      <div
+        class="uk-grid-column-small uk-grid-row-large uk-child-width-1-2@s"
+        uk-grid
+      >
+        <div>
+          <img
+            class="bilder"
+            src="/images/Lithium Mine.png"
+            alt="Lithium Mine Kind"
+          />
         </div>
-
-        <img src="/images/400x300.svg" alt="" />
+        <div>
+          <div class="textbereich">
+            <h3>E-Autos: Scheinlösung oder Hoffnungsträger?</h3>
+            <p>
+              Elektroautos werden oft als umweltfreundliche Alternative zu
+              Verbrennern angepriesen. Da sie keine direkten Emissionen
+              ausstoßen, tragen sie nicht zur lokalen Luftverschmutzung bei.
+              <br />
+              <b>Aber:</b>
+            </p>
+            <ul class="liste">
+              <li>
+                <b>Die Herstellung von E-Autos ist energieintensiv</b> und kann
+                Umweltbelastungen verursachen, insbesondere wenn der Strom aus
+                fossilen Brennstoffen gewonnen wird.
+              </li>
+              <li>
+                <b>Die Entsorgung von Batterien</b> stellt ein großes Problem
+                dar, da giftige Stoffe den Boden und das Wasser verunreinigen
+                können.
+              </li>
+              <li>
+                <b>Die Reichweite von E-Autos ist begrenzt,</b> was die
+                Alltagstauglichkeit einschränkt.
+              </li>
+              <li>
+                <b>Der Preis von E-Autos ist noch deutlich höher</b> als der von
+                vergleichbaren Benzinern oder Dieselfahrzeugen.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
+
+      <!-- Wasserstoff -->
+      <div
+        class="uk-grid-column-small uk-grid-row-large uk-child-width-1-2@s"
+        uk-grid
+      >
+        <div>
+          <div class="textbereich">
+            <h3>Wasserstoff: Zukunftstechnologie oder Trugbild?</h3>
+            <p>
+              Wasserstoff gilt als potenzieller Energieträger der Zukunft, der
+              auch im Verkehrssektor eingesetzt werden könnte <br />
+              <b>Doch:</b>
+            </p>
+            <ul class="liste">
+              <li>
+                <b>Die Herstellung von Wasserstoff</b> ist energieintensiv und
+                erfordert oft fossile Brennstoffe.
+              </li>
+
+              <li>
+                <b
+                  >Die Infrastruktur für Wasserstoffautos ist noch in den
+                  Anfängen</b
+                >
+                und muss flächendeckend ausgebaut werden.
+              </li>
+              <li>
+                <b>Wasserstoffautos sind sehr teuer</b> in Anschaffung und
+                Unterhalt.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img
+            class="bilder"
+            src="/images/Wasserstoffbus Münster.png"
+            alt="Wasseratoffbus in Münster"
+          />
+        </div>
+      </div>
+      <!-- Schluss -->
       <div class="schluss">
+        <!-- Umdenken -->
         <div class="umdenken">
           <h2>Umdenken ist gefragt:</h2>
           <p>
@@ -133,13 +172,14 @@
             Könnten wir nicht stattdessen
             <b
               >zu Fuß gehen, Fahrrad fahren oder öffentliche Verkehrsmittel
-              nutzen? ><br />
-              Fahrverbote auf Inseln wie Norderney</b
-            >
-            zeigen, dass es möglich ist, auf Autos zu verzichten, ohne dabei auf
-            Mobilität einzubüßen.
+              nutzen?</b
+            ><br />
+            Fahrverbote auf Inseln wie Norderney zeigen, dass es möglich ist,
+            auf Autos zu verzichten, ohne dabei auf Mobilität einzubüßen.
           </p>
         </div>
+
+        <!-- Fazit -->
         <div class="fazit">
           <h4>Fazit:</h4>
           <p>
@@ -154,8 +194,12 @@
             <b
               >Jeder Einzelne kann dazu beitragen, indem er bewusster auf sein
               Auto verzichtet und alternative Fortbewegungsmöglichkeiten nutzt. </b
-            ><br /><span>Denkanstöße:</span>
+            ><br />
           </p>
+        </div>
+        <hr class="linie" />
+        <div class="denkanstoesse">
+          <h4>Denkanstöße:</h4>
           <ul>
             <li>
               In welchen Situationen könnte ich auf mein Auto verzichten und
@@ -171,11 +215,12 @@
             </li>
           </ul>
         </div>
-        <h3>
+        <hr class="linie" />
+        <h5>
           Diskutiere diese Fragen mit deinen Freunden und deiner Familie!
           <br />
           Gemeinsam können wir etwas für unsere Umwelt tun!
-        </h3>
+        </h5>
       </div>
     </main>
 
